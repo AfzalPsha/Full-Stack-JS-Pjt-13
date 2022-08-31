@@ -14,7 +14,7 @@
 ## Time taken to finish this project
 
 - 3 hours taken to complete it.
-## Project 13 [Live Link]()
+## Project 13 [Live Link](https://lco-pjt13.netlify.app)
 #### Preview
 
 ![Desktop](./preview.jpg)

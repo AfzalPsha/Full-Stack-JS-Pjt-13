@@ -55,6 +55,21 @@ body {
     font-weight: lighter;
     border-radius: 4px;
 }
+.Mnav{
+    display: none;
+}
+
+
+@media only screen and (max-width:960px){
+    .navbar .list{
+        display: none;
+    }
+    .Mnav{
+        display: block;
+        font-size: 26px;
+        color: #FFFFFF;
+    }
+}
 
 
 /*------------------------- hero section -----------------------*/
@@ -94,7 +109,22 @@ body {
 .hero .hero-right img {
     width: 650px;
 }
+@media only screen and (max-width:960px){
+    .hero .hero-right img {
+        width: 550px;
+    }
+    .hero{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
+@media only screen and (max-width:460px){
+    .hero .hero-right img {
+        width: 350px;
+    }
+}
 
 
 
@@ -124,6 +154,14 @@ body {
 .features .feature-right .list .list-item h6 {
     font-size: 1.1rem;
     margin-bottom: 10px;
+}
+@media only screen and (max-width:960px){
+ .features{
+    flex-direction: column;
+ }  
+ .feature-right{
+    margin-top: -60px;
+ }
 }
 
 
@@ -198,3 +236,9 @@ body {
     font-size: 13px;
     margin-top: 4px;
 }
+
+@media only screen and (max-width:820px){
+    .customer-cards{
+        flex-wrap: wrap;
+    }
+   }
